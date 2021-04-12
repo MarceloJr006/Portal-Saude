@@ -1,0 +1,1690 @@
+.has-text-danger {
+  border: 1px solid red;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.sony{
+  grid-column: 2/2;
+  grid-row: 1/1;  
+  padding-top: 50px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.sony a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.microsoft{
+  grid-column: 3/3;
+  grid-row: 1/1;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.microsoft a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nintendo{
+  grid-column: 4/4;
+  grid-row: 1/1;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.nintendo a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.blog{
+  grid-column: 5/5;
+  grid-row: 1/1;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.blog a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.evento{
+  text-align: center;
+}
+
+.comic{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(7 , 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding-top: 10px;
+  grid-gap: 10px;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.card1 {
+  grid-column: 2 / 2;
+  grid-row: 1 / 3;
+  background-color: #198754;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card1 img {
+  border-radius: 10px;
+}
+
+.card1 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card2 {
+  grid-column: 4 / 4;
+  grid-row: 1 / 3;
+  background-color: #198754;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card2 img {
+  border-radius: 10px;
+}
+
+.card2 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card3 {
+  grid-column: 6 / 6;
+  grid-row: 1 / 3;
+  background-color: #198754;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card3 img {
+  border-radius: 10px;
+}
+
+.card3 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card4 {
+  grid-column: 2 / 2;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card4 img {
+  border-radius: 10px;
+}
+
+.card4 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card5 {
+  grid-column: 4 / 4;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card5 img {
+  border-radius: 10px;
+}
+
+.card5 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card6 {
+  grid-column: 6 / 6;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card6 img {
+  border-radius: 10px;
+}
+
+.card6 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/*  Página Sony */
+
+.ps5grid{
+  display: grid;
+  grid-template-columns: repeat(2);
+  grid-template-rows: repeat(auto);
+}
+
+.ps5img{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.ps5text{
+  grid-column: 2/2;
+  grid-row: 1/3;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.containerSony{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.containerSony a{
+  text-decoration: none;
+  color: black;
+}
+
+.cardsony1 {
+  grid-column: 2 / 2;
+  grid-row: 1 / 3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony1 img {
+  border-radius: 10px;
+}
+
+.cardsony1 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.cardsony2 {
+  grid-column: 4 / 4;
+  grid-row: 1 / 3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony2 img {
+  border-radius: 10px;
+}
+
+.cardsony2 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.cardsony3 {
+  grid-column: 6 / 6;
+  grid-row: 1 / 3;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony3 img {
+  border-radius: 10px;
+}
+
+.cardsony3 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cardsony4 {
+  grid-column: 2 / 2;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony4 img {
+  border-radius: 10px;
+}
+
+.cardsony4 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.cardsony5 {
+  grid-column: 4 / 4;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony5 img {
+  border-radius: 10px;
+}
+
+.cardsony5 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.cardsony6 {
+  grid-column: 6 / 6;
+  grid-row: 3 / 6;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony6 img {
+  border-radius: 10px;
+}
+
+.cardsony6 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cardsony7 {
+  grid-column: 2 / 2;
+  grid-row: 5 / 8;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony7:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony7 img {
+  border-radius: 10px;
+}
+
+.cardsony7 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cardsony8 {
+  grid-column: 4 / 4;
+  grid-row: 5 / 8;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony8:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony8 img {
+  border-radius: 10px;
+}
+
+.cardsony8 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cardsony9 {
+  grid-column: 6 / 6;
+  grid-row: 5 / 8;
+  background-color: #cecece;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.cardsony9:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardsony9 img {
+  border-radius: 10px;
+}
+
+.cardsony9 p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+/*  Fim dá página da sony */
+
+.rodape{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  background-color: #ebb758;
+}
+
+.consoles a{
+  grid-column: 1/1;
+  grid-row: 1/1;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.xbox a{
+  text-decoration: none;
+  color: black;
+}
+
+.xbox{
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+.play{
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+
+.play a{
+  text-decoration: none;
+  color: black;
+}
+
+.nintendo2{
+  padding-left: 15px;
+  grid-column: 1/1;
+  grid-row: 4/4;
+}
+
+.nintendo2 a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.social{
+  grid-column: 2/2;
+  grid-row: 1/1;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.social a{
+  text-decoration: none;
+  color: black;
+}
+
+.facebook{
+   grid-column: 2/2;
+  grid-row: 2/2;
+  padding-left: 15px;
+}
+
+.facebook a{
+  text-decoration: none;
+  color: black;
+}
+
+.instagram{
+   grid-column: 2/2;
+  grid-row: 3/3;
+  padding-left: 15px;
+}
+
+.instagram a{
+  text-decoration: none;
+  color: black;
+}
+
+.ign{
+  grid-column: 3/3;
+  grid-row: 1/1;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.work{
+  grid-column: 3/3;
+  grid-row: 2/2;
+  padding-left: 15px;
+}
+
+.work a{
+  text-decoration: none;
+  color: black;
+}
+
+.speak{
+   grid-column: 3/3;
+  grid-row: 3/3;
+  padding-left: 15px;
+}
+
+.speak a{
+  text-decoration: none;
+  color: black;
+}
+
+.about{
+  grid-column: 3/3;
+  grid-row: 4/4;
+  padding-left: 15px;
+}
+
+.about a{
+  text-decoration: none;
+  color: black;
+}
+
+.final{
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.img3{
+  padding-left: 300px;
+}
+
+.conteudo{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 30px;
+}
+
+
+.CardsJuntos{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.CardsJuntos a{
+  text-decoration: none;
+  color: black;
+}
+
+.together{
+  display: flex;
+}
+
+.finalcards{
+  padding-left: 400px;
+}
+
+.intension{
+  padding-left: 30px;
+}
+
+.logo {
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.Fale-conosco{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.TituloFaleConosco{
+  grid-column: 2/4;
+  grid-row: 1/1;
+}
+
+.conteudoFale{
+  grid-column: 1/5;
+  grid-row: 2/6;
+}
+
+.TituloFaleConosco h1{
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+}
+
+.Contato{
+  grid-column: 1/1;
+  grid-row: 3/3;
+  padding-left: 20px;
+  color: rgb(160, 0, 0);
+}
+
+
+.conteudoFale p {
+  font-size: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.Trabalhe-conosco-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  padding-bottom: 20px;
+}
+
+.Trabalhe-conosco-Titulo{
+  grid-column: 2/4;
+  grid-row: 1/1;
+  justify-content: center;
+  text-align: center;
+}
+
+.Trabalhe-conosco-Titulo h5{
+  color: slategrey;
+}
+
+.Trabalhe-conosco-formulario{
+  grid-column: 2/4;
+  grid-row: 2/7;
+}
+
+.bannerps5{
+  padding-bottom: 20px;
+}
+
+.carrossel{
+  width: 100%;
+}
+
+.carrossel img{
+  width: 80%;
+  height: 500px;
+}
+
+.cavaleiro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+
+.textocovid{
+  display: flex;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  font-size: 20px;
+  text-align: center;
+  align-items:center;
+  margin-right: 10px;
+}
+.imagembgs{
+  display: flex;
+  justify-content: center;
+  grid-column: 2/2;
+  grid-row: 1/1;
+}
+.cavaleiro img{
+  width: 500px;
+  height: 300px;
+}
+
+.Postagem1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto);
+}
+
+.Textopostagem{
+  grid-column: 2/4;
+  grid-row: 1/3;
+  text-align: center;
+}
+
+.descricaopostagem{
+  grid-column: 2/4;
+  grid-row: 3/4;
+  text-align: center;
+}
+
+.descricaopostagem p{
+  font-size: 25px;
+}
+.imgPostagem{
+  grid-column: 2/2;
+  grid-row: 5/9;
+}
+
+.texto2{
+  grid-column: 2/4;
+  grid-row: 10/13;
+  padding-bottom: 20px;
+}
+.imgPostagem2{
+  grid-column: 2/2;
+  grid-row: 5/9;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 980px) {
+  .carrossel img{
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 250px;
+  }
+  .carrossel h3 {
+      font-size: 20px;
+  }
+  .container1 {
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+  .textobgs{
+      grid-column: 1/3;
+      grid-row: 2/2;
+  }
+  .imagembgs{
+      grid-column: 1/3;
+      grid-row: 1/1;
+  }
+  .card1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .card1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .card1 p {
+      font-size: 20px;
+  }
+
+  .card2 {
+      grid-column: 2 / 2;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .card2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card2 p {
+      font-size: 20px;
+  }
+
+  .card3 {
+      grid-column: 3 / 3;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .card3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card3 p {
+      font-size: 20px;
+  }
+
+  .card4 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .card4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card4 p {
+      font-size: 20px;
+  }
+  .card5 {
+      grid-column: 2 / 2;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .card5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card5 p {
+      font-size: 20px;
+  }
+
+  .card6 {
+      grid-column: 3 / 3;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .card6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card6 p {
+      font-size: 20px;
+  }
+  .containerSony {
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+  .cardsony1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .cardsony1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .cardsony1 p {
+      font-size: 20px;
+  }
+
+  .cardsony2 {
+      grid-column: 2 / 2;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony2 p {
+      font-size: 20px;
+  }
+
+  .cardsony3 {
+      grid-column: 3 / 3;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony3 p {
+      font-size: 20px;
+  }
+
+  .cardsony4 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony4 p {
+      font-size: 20px;
+  }
+  .cardsony5 {
+      grid-column: 2 / 2;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony5 p {
+      font-size: 20px;
+  }
+
+  .cardsony6 {
+      grid-column: 3 / 3;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony6 p {
+      font-size: 20px;
+  }
+  .cardsony7 {
+      grid-column: 1 / 1;
+      grid-row: 5 / 8;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony7 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony7 p {
+      font-size: 20px;
+  }
+
+  .cardsony8 {
+      grid-column: 2 / 2;
+      grid-row: 5 / 8;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony8 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony8 p {
+      font-size: 20px;
+  }
+  .cardsony9 {
+      grid-column: 3 / 3;
+      grid-row: 5 / 8;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+  }   
+  .cardsony9 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony9 p {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+  }
+
+  .grid a{
+      font-size: 20px;
+  }
+
+  .logo{
+      width: 140px;
+      height: 80px;
+  }
+  .carrossel{
+      margin-top: 20px;
+      width: 100%;
+  }
+  .cavaleiro img{
+      height: 300px;
+      width: 100%;
+  }
+  .container1 {
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+  .card1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+  }
+
+  .card1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .card1 p {
+      font-size: 20px;
+  }
+
+  .card2 {
+      grid-column: 2 / 2;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+  }   
+  .card2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card2 p {
+      font-size: 20px;
+  }
+
+  .card3 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+  }   
+  .card3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card3 p {
+      font-size: 20px;
+  }
+
+  .card4 {
+      grid-column: 2 / 2;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+  }   
+  .card4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card4 p {
+      font-size: 20px;
+  }
+
+  .card5 {
+      grid-column: 1 / 1;
+      grid-row: 6 / 9;
+      height: 430px;
+      width: 250px;
+  }   
+  .card5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card5 p {
+      font-size: 20px;
+  }
+  .card6 {
+      grid-column: 2 / 2;
+      grid-row: 6 / 9;
+      height: 430px;
+      width: 250px;
+  }   
+  .card6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card6 p {
+      font-size: 20px;
+  }
+
+  .containerSony {
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+
+  .cardsony1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 2;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  .cardsony1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .cardsony1 p {
+      font-size: 20px;
+  }
+
+  .cardsony2 {
+      grid-column: 2 / 2;
+      grid-row: 1 / 2;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony2 p {
+      font-size: 20px;
+  }
+
+  .cardsony3 {
+      grid-column: 1 / 1;
+      grid-row: 2 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony3 p {
+      font-size: 20px;
+  }
+
+  .cardsony4 {
+      grid-column: 2 / 2;
+      grid-row: 2 / 3;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony4 p {
+      font-size: 20px;
+  }
+
+  .cardsony5 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 4;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony5 p {
+      font-size: 20px;
+  }
+  .cardsony6 {
+      grid-column: 2 / 2;
+      grid-row: 3 / 4;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony6 p {
+      font-size: 20px;
+  }
+  .cardsony7 {
+      grid-column: 1 / 1;
+      grid-row: 4 / 5;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony7 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony7 p {
+      font-size: 20px;
+  }
+  .cardsony8 {
+      grid-column: 2 / 2;
+      grid-row: 4 / 5;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony8 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony8 p {
+      font-size: 20px;
+  }
+  .cardsony9 {
+      grid-column: 1 / 2;
+      grid-row: 5 / 6;
+      height: 430px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }   
+  .cardsony9 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony9 p {
+      font-size: 20px;
+  }
+  .mb-3{
+      width: 40px;
+      float: left;
+      margin: 0 10px 10px 0;
+  }
+}
+@media (max-width: 650px){
+  .bannerps5{
+      height: 400px;
+  }
+
+  .container1 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+  .card1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 3;
+      height: 430px;
+      width: 250px;
+  }
+
+  .card1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .card1 p {
+      font-size: 20px;
+  }
+
+  .card2 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 6;
+      height: 430px;
+      width: 250px;
+  }   
+  .card2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card2 p {
+      font-size: 20px;
+  }
+
+  .card3 {
+      grid-column: 1 / 1;
+      grid-row: 6 / 9;
+      height: 430px;
+      width: 250px;
+  }   
+  .card3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card3 p {
+      font-size: 20px;
+  }
+
+  .card4 {
+      grid-column: 1 / 1;
+      grid-row: 9 / 12;
+      height: 430px;
+      width: 250px;
+  }   
+  .card4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card4 p {
+      font-size: 20px;
+  }
+
+  .card5 {
+      grid-column: 1 / 1;
+      grid-row: 12 / 15;
+      height: 430px;
+      width: 250px;
+  }   
+  .card5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card5 p {
+      font-size: 20px;
+  }
+  .card6 {
+      grid-column: 1 / 1;
+      grid-row: 15 / 18;
+      height: 430px;
+      width: 250px;
+  }   
+  .card6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .card6 p {
+      font-size: 20px;
+  }
+  .containerSony {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      grid-gap: 10px;
+  }
+
+  .cardsony1{
+      grid-column: 1 / 1;
+      grid-row: 1 / 2;
+      height: 430px;
+      width: 250px;
+  }
+
+  .cardsony1 img {
+      width: 250px;
+      height: 330px;
+  }
+  
+  .cardsony1 p {
+      font-size: 20px;
+  }
+
+  .cardsony2 {
+      grid-column: 1 / 1;
+      grid-row: 2 / 3;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony2 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony2 p {
+      font-size: 20px;
+  }
+
+  .cardsony3 {
+      grid-column: 1 / 1;
+      grid-row: 3 / 4;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony3 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony3 p {
+      font-size: 20px;
+  }
+
+  .cardsony4 {
+      grid-column: 1 / 1;
+      grid-row: 4 / 5;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony4 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony4 p {
+      font-size: 20px;
+  }
+
+  .cardsony5 {
+      grid-column: 1 / 1;
+      grid-row: 5 / 6;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony5 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony5 p {
+      font-size: 20px;
+  }
+  .cardsony6 {
+      grid-column: 1 / 1;
+      grid-row: 6 / 7;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony6 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony6 p {
+      font-size: 20px;
+  }
+
+  .cardsony7 {
+      grid-column: 1 / 1;
+      grid-row: 8 / 9;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony7 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony7 p {
+      font-size: 20px;
+  }
+
+  .cardsony8 {
+      grid-column: 1 / 1;
+      grid-row: 10 / 11;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony8 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony8 p {
+      font-size: 20px;
+  }
+  .cardsony9 {
+      grid-column: 1 / 1;
+      grid-row: 12 / 13;
+      height: 430px;
+      width: 250px;
+  }   
+  .cardsony9 img {
+      width: 250px;
+      height: 330px;
+  }
+  .cardsony9 p {
+      font-size: 20px;
+  }
+  .ps5text{
+      grid-column: 1/2;
+      grid-row: 4/6;
+      text-align: center;
+      padding-top: 100px;
+  }
+}
+
+@media (max-width: 580px){
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+}
+
+.grid a{
+  font-size: 20px;
+}
+
+.logo img{
+  width: 100px;
+  height: 50px;
+}
+.logo{
+  grid-column: 2/2;
+  grid-row: 1/1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.sony{
+  grid-column: 2/2;
+  grid-row: 2/2;
+  padding-top: 1px;
+  margin-left: 0;
+  margin-right: 30px;
+}
+.microsoft{
+  grid-column: 2/2;
+  grid-row: 3/3;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+}
+.nintendo{
+  grid-column: 2/2;
+  grid-row: 4/4;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+}
+.blog{
+  grid-column: 2/2;
+  grid-row: 5/5;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+}
+.login{
+  grid-column: 2/2;
+  grid-row: 6/6;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+}
+.ps5img img{
+  width: 100%;
+}
+.ps5text{
+  grid-column: 1/2;
+  grid-row: 3/5;
+  text-align: center;
+  padding-top: 100px;
+}
+.ps5text p{
+  font-size: 20px;
+  padding-right: 30px;
+}
+}
+
+@media (max-width: 580px){
+  .rodape a, p, h5{
+      font-size: 20px;
+      text-align: center;
+      
+  }
+
+}
